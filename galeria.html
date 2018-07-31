@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<title>Welcome to the Abyss, there's no way out...</title>
+		<meta name="author" content="Leonardo P. Oliveira & Vinícius B. Bernardini.">
+		<meta name="description" content="In the Age of Ancients the world was unformed, shrouded by fog. A land of grey crags, arch-trees and everlasting dragons. But then there was Fire, and with Fire came Disparity. Heat and cold, life and death, and of course... Light and Dark. Then, from the Dark they came and found the Souls of Lords within the flame. Nito, the First of the Dead; The Witch of Izalith and her daughters of Chaos; Gwyn, the Lord of Sunlight, with his faithful knights; And the furtive pygmy, so easily forgotten. With the Strength of Lords, they challenged the dragons. Gwyn's mighty bolts peeled apart their stone scales. The witches weaved great firestorms. Nito unleashed a miasma of death and disease. And Seath the Scaleless betrayed his own and the dragons were no more. Thus began the Age of Fire... But soon, the flames will fade and only Dark will remain. Even now, there are only embers and man sees not light, but only endless nights. Amongst the living are seen carriers of the accursed Darksign.">
+		<meta name="keywords" content="Dark Souls, Artorias, Manus, Sif, Abyss">
+		<!--Link nosso CSS-->
+		<!--Puxando o CSS próprio-->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<!--Preparando para o uso do Bootstrap-->
+		<!--Liberar leitura das medias queries:-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Adicionando favicon:-->
+		<link rel="icon" href="images/icon.png">
+		<!--Incorporando o css do Bootstrap:-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!--Incorporando o JS do Bootstrap: -->
+		<script src="js/bootstrap.min.js"></script>
+		<!--Incorporando o JQuery do Bootstrap: -->
+		<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+		<!-- End WOWSlider.com HEAD section -->
+		<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+		<!--Função de regular volume do autoplay-->
+		<script>function setHalfVolume() {
+		var myAudio = document.getElementById("audio");  
+		myAudio.volume = 0.1;
+		}
+		</script>
+	</head>
+	<body>
+	<audio id= "audio" autoplay onloadeddata="setHalfVolume()" loop>
+			<source src="audio/audio3.mp3" type="audio/mp3">
+	</audio>
+	<header id="menu">
+		<div class="media">
+			<img src="images/topo.png" alt="topo" class="img-responsive" style="width:55%;">
+		</div>
+			<nav class="navbar navbar-inverse"   style="margin-bottom: 0;">
+		  		<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="galeria.html">Galery</a></li>
+						<li> <a href="personagens.html">Lores</a></li>
+						<li> <a href="visao/contato.html">Contact</a></li>
+						<li> <a href="http://www.fromsoftware.jp/pc_en/">From Software</a></li>
+					    <li> <a href="http://store.steampowered.com/app/211420/">Buy it!</a></li>
+			    	</ul>
+			    </div>
+			</nav>
+	</header>
+	<section id="conteudo">
+		<div class="container-fluid">
+		<h1 class="titulos"  style="margin-top:0;">Galery</h1>
+	<!-- Start WOWSlider.com BODY section -->
+		<div id="wowslider-container1">
+		<div class="ws_images"><ul>
+				<li><img src="data1/images/galeria1.jpg" alt="galeria1" title="galeria1" id="wows1_0"/></li>
+				<li><img src="data1/images/galeria2.jpg" alt="galeria2" title="galeria2" id="wows1_1"/></li>
+				<li><img src="data1/images/galeria3.jpg" alt="galeria3" title="galeria3" id="wows1_2"/></li>
+				<li><img src="data1/images/galeria4.jpg" alt="galeria4" title="galeria4" id="wows1_3"/></li>
+				<li><img src="data1/images/galeria5.jpg" alt="galeria5" title="galeria5" id="wows1_4"/></li>
+			</ul></div>
+			<div class="ws_bullets"><div>
+				<a href="#wows1_0" title="galeria1"><span><img src="data1/tooltips/galeria1.jpg" alt="galeria1"/>1</span></a>
+				<a href="#wows1_1" title="galeria2"><span><img src="data1/tooltips/galeria2.jpg" alt="galeria2"/>2</span></a>
+				<a href="#wows1_2" title="galeria3"><span><img src="data1/tooltips/galeria3.jpg" alt="galeria3"/>3</span></a>
+				<a href="#wows1_3" title="galeria4"><span><img src="data1/tooltips/galeria4.jpg" alt="galeria4"/>4</span></a>
+				<a href="#wows1_4" title="galeria5"><span><img src="data1/tooltips/galeria5.jpg" alt="galeria5"/>5</span></a>
+			</div></div><div class="ws_script" style="position:absolute;left:-99%">javascript slideshow by WOWSlider.com v8.2</div>
+		<div class="ws_shadow"></div>
+		</div>	
+		<script type="text/javascript" src="engine1/wowslider.js"></script>
+		<script type="text/javascript" src="engine1/script.js"></script>
+		<!-- End WOWSlider.com BODY section -->
+        </div><br>
+        </section>
+		<footer>	
+		<span>Vinicius B. Bernardini &amp; Leonardo P. Oliveira. 1994-2017 FromSoftware, Inc. All right reserved &copy;</span>
+		</footer>		
+	</body>	
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<title>Welcome to the Abyss, there's no way out...</title>
+		<meta name="author" content="Leonardo P. Oliveira & Vinícius B. Bernardini.">
+		<meta name="description" content="In the Age of Ancients the world was unformed, shrouded by fog. A land of grey crags, arch-trees and everlasting dragons. But then there was Fire, and with Fire came Disparity. Heat and cold, life and death, and of course... Light and Dark. Then, from the Dark they came and found the Souls of Lords within the flame. Nito, the First of the Dead; The Witch of Izalith and her daughters of Chaos; Gwyn, the Lord of Sunlight, with his faithful knights; And the furtive pygmy, so easily forgotten. With the Strength of Lords, they challenged the dragons. Gwyn's mighty bolts peeled apart their stone scales. The witches weaved great firestorms. Nito unleashed a miasma of death and disease. And Seath the Scaleless betrayed his own and the dragons were no more. Thus began the Age of Fire... But soon, the flames will fade and only Dark will remain. Even now, there are only embers and man sees not light, but only endless nights. Amongst the living are seen carriers of the accursed Darksign.">
+		<meta name="keywords" content="Dark Souls, Artorias, Manus, Sif, Abyss">
+		<!--Link nosso CSS-->
+		<!--Puxando o CSS próprio-->
+		<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+		<!--Preparando para o uso do Bootstrap-->
+		<!--Liberar leitura das medias queries:-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Adicionando favicon:-->
+		<link rel="icon" href="../images/icon.png">
+		<!--Incorporando o css do Bootstrap:-->
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<!--Incorporando o JS do Bootstrap: -->
+		<script src="../js/bootstrap.min.js"></script>
+		<!--Incorporando o JQuery do Bootstrap: -->
+		<script src="../js/jquery-3.1.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+	</head>
+	<body>
+	<header id="menu">
+		<div class="media">
+			<img src="../images/topo.png" alt="topo" class="img-responsive" style="width:55%;">
+		</div>
+		<nav class="navbar navbar-inverse"  style="margin-bottom: 0;">
+		  <div class="container-fluid">
+			<ul class="nav navbar-nav">
+			    <li><a href="../index.html">Home</a></li>
+				<li><a href="../galeria.html">Galery</a></li>
+				<li><a href="../personagens.html">Lores</a></li>
+				<li class="active"><a href="visao/contato.html">Contact</a></li>
+				<li><a href="http://www.fromsoftware.jp/pc_en/">From Software</a></li>
+				<li><a href="http://store.steampowered.com/app/211420/">Buy it!</a></li>
+		    </ul>
+		   </div>	
+		</nav>
+	</header>
+	<section id="conteudo" style="margin-bottom: 0; border-bottom:0px;">
+	    <h1 style="display:none;">H1</h1>
+	    <h2 style="display:none;">H2</h2>
+        <div class="principal" style="margin-bottom: 0; border-bottom:0px;">
+	    	<form name="contato" id="contato" class="container-fluid" method="post" action="../controle/contatocontrole.php">
+               <fieldset><legend class="titulos" style="border: 0;">Contact</legend>
+                    <div class="container-fluid" style="width: 40%"><br>
+                        <input type="text" name="txtnome" id="txtnome" placeholder="Name" class="form-control" pattern="^[a-zA-ZáÁéÉíÍóÓúÚçÇãõÃÕ]{2,20}$" required="required"/>
+                    </div>
+                    <div class="container-fluid" style="width: 40%"><br>
+                        <input type="text" name="txttelefone" id="txttelefone" placeholder="Phone" class="form-control" pattern="^[0-9]{8,12}$" required="required"/>   
+                    </div>
+					<div class="container-fluid" style="width: 40%"><br>
+						<input type="text" name="txtemail" id="txtemail" placeholder="E-mail" class="form-control" pattern="^(.){6,32}$" required="required"/>
+					</div>
+					<div class="container-fluid" style="width: 40%">
+					    <label class="subtitulos">Leave your message:</label>
+					    <br>
+					    <textarea style="width:100%; float:none; margin: 0 auto;" rows="5" cols="40" maxlength="500" name="txtAssunto" id="txtAssunto" class="form-control" required="required" placeholder="Type here..."></textarea><br>
+    				</div>
+                    <div class="container-fluid" id="confirma">
+                        <p style="text-align: center;">
+                            <input type="submit" name="btnlogar" id="btnenviar" value="submit" class="btn btn-default"/>
+                            <input type="reset" name="btnlimpar" id="btnlimpar" value="reset" class="btn btn-default"/>
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+            </div>
+        </section>
+		<footer class="row">	
+		    <span>Vinicius B. Bernardini &amp; Leonardo P. Oliveira. 1994-2017 FromSoftware, Inc. All right reserved &copy; </span>
+		</footer>		
+	</body>	
+</html>
